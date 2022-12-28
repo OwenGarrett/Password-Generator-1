@@ -1,13 +1,20 @@
 // Assignment code here
-//Query Selectors
-var generateBtn = document.querySelector("#generate");
-var password = document.querySelector("#password");
 
-// Variables for password
+/* Query Selectors
+ var generateBtn = document.querySelector("#generate");
+ var password = document.querySelector("#password");
+ 
+
+Variables for password
 var lowercaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
 var uppercaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var specialCharacters = "~`!@#$%^&*()-_=+[{]},.<>/?;:";
+
+
+Event listener 
+ generateBtn.addEventListener("click, generatePassword");
+*/
 
 // Prompt
 function generatePassword() {
@@ -30,7 +37,7 @@ function generatePassword() {
 }
 
 // Get references to the #generate element
-// var generateBtn = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
